@@ -134,6 +134,12 @@
         margin: 10px;
         display: block;
     }
+    
+    .btn {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #ffffff;
+    }
     /* responsive break(+768px) */
     
     @media screen and (min-width: 769px) {
@@ -161,16 +167,19 @@
             display: inline;
         }
         #cursos {
-            width: 90%;
-            display: inline-block;
+            width: 95%;
+            display: block;
+            margin-left: auto;
+            margin-left: auto;
         }
         #licencias {
-            width: 90%;
-            margin: 20px;
-            display: inline-block;
+            width: 95%;
+            display: block;
+            margin-left: auto;
+            margin-left: auto;
         }
         .licencias {
-            width: 20%;
+            width: 22%;
             display: inline-block;
         }
     }
