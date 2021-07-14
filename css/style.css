@@ -217,12 +217,6 @@
         text-decoration: underline;
     }
     
-    .breadcrumb {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-    
     .breadcrumb-item.active {
         color: #000000;
     }
