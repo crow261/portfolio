@@ -24,7 +24,7 @@
                     <a href="estudios.html">Estudios</a>
                     <a href="experiencias.html">Experiencias</a>
                     <a href="hobbies.html">Hobbies</a>
-                    <a href="contacto.html">Contacto</a>
+                    <button id="contactomodal" type="button" class="btn" data-toggle="modal" data-target="#myModal">Contacto</button>
 
                 </nav>
 
@@ -63,15 +63,61 @@
             <li><a href="estudios.html" class="breadcrumb-item">Estudios</a></li>
             <li><a href="experiencias.html" class="breadcrumb-item">Experiencias</a></li>
             <li><a href="hobbies.html" class="breadcrumb-item">Hobbies</a></li>
-
         </ul>
+        LinkedIn: Email: Cellphone: Home:
 
     </footer>
+    <!-- MODAL contacto -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
 
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <p class="modal-title">Formulario de Contacto</p>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="emailmodal">Email de contacto</label>
+                            <input type="email" class="form-control" id="emailmodal" aria-describedby="emailHelp" placeholder="Email">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="nombres">Cuál es tu nombre?</label>
+                            <input type="text" class="form-control" id="nombres" placeholder="Nombre y Apellido">
+                        </div>
+                        <div class="form-group">
+                            <label for="asuntomodal">Introduce el motivo</label>
+                            <input type="text" class="form-control" id="asuntomodal" placeholder="Asunto">
+                        </div>
+                        <div class="form-group">
+                            <label for="texto">Deja el mensaje aquí</label>
+                            <textarea class="form-control" rows="3" id="texto" placeholder="msj">
+                            </textarea>
+                        </div>
+
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer"><button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- Modal footer<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 </body>
 
 </html>
